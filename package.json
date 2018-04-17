@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lintproject": "./node_modules/.bin/eslint ./",
+    "lint": "./node_modules/.bin/eslint"
   },
   "keywords": [],
   "author": "",

@@ -1,8 +1,23 @@
 # Minimal React App Boilerplate
 
+## Features
+- jsx support
+- webpack dev server
+- hotloading
+- routing with react router
+- babel support
+- eslint (using airbnb's config)
+
 ## Using the boilerplate
 1. Clone the repo
 2. from the root, run npm start. This runs the dev server
+
+
+## Commands
+- `npm start`: starts the dev server
+- `npm run lintproject`: lints the entire repo
+- `npm run lint -- ${filepath}`: lints the file you specify (npm run lint is basically a macro for eslint so you can pass in whatever args you want)
+
 
 ## This repo is an amalgamation of a few super useful articles:
 - [React Router](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
