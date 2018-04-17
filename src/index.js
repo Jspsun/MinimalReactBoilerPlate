@@ -8,7 +8,7 @@ ReactDOM.render(
   (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={SimpleComponent} />
+        <Route exact path="/" component={SimpleComponent} />
       </Switch>
     </BrowserRouter>
   ),
