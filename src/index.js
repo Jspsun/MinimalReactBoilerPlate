@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import SimpleComponent from './components/SimpleComponent.jsx';
+import SimpleComponent from './components/SimpleComponent';
 
-const title = 'My Minimal React Webpack Babel Setup';
-
-ReactDOM.render((
-  <BrowserRouter>
-    <Switch>
-      <Route path="/" component={SimpleComponent}/>
-    </Switch>
-  </BrowserRouter>
+ReactDOM.render(
+  (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={SimpleComponent} />
+      </Switch>
+    </BrowserRouter>
   ),
-  document.getElementById('app')
+  document.getElementById('app'),
 );
 

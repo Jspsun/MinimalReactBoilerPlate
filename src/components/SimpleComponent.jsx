@@ -1,9 +1,7 @@
 import React from 'react';
 
-function SimpleComponent(props) {
+export default function SimpleComponent() {
   return (
     <div>This is a simple component</div>
   );
 }
-
-module.exports = SimpleComponent;
