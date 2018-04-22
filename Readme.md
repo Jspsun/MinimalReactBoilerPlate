@@ -6,6 +6,7 @@
 - hotloading
 - routing with react router
 - babel support
+- prop type checking
 - eslint (using airbnb's config)
 
 ## Using the boilerplate
