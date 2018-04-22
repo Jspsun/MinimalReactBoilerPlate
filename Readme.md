@@ -24,4 +24,5 @@
 
 ## This repo is an amalgamation of a few super useful articles:
 - [React Router](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
+  - [Single Page Sites With React Router](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm)
 - [Webpack and babel](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
