@@ -1,7 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function SimpleComponent() {
+export default function SimpleComponent(props) {
   return (
-    <div>This is a simple component</div>
+    <div>{props.message}</div>
   );
 }
+
+SimpleComponent.propTypes = {
+  message: PropTypes.string.isRequired,
+};
