@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import SimpleComponent from './SimpleComponent';
+import SimpleComponent from './SimpleComponent/SimpleComponent';
 
 export default function Router() {
   return (
