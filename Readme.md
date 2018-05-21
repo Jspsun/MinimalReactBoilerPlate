@@ -12,7 +12,8 @@
 
 ## Using the boilerplate
 1. Clone the repo
-2. from the root, run npm start. This runs the dev server
+2. Run `npm install` to install all the dependencies you need
+3. From the root, run `npm start`. This runs the dev server
 
 
 ## Commands
@@ -26,3 +27,12 @@
 - [React Router](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
   - [Single Page Sites With React Router](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm)
 - [Webpack and babel](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
+
+## Common Errors
+I noticed a few errors that I got when running the project on some computers. Here is how I fixed them:
+
+```
+No matching version found for babylon@7.0.0-beta.0-ranges
+
+// This is an issue caused by outdated versions of npm. To fix it, run `npm install -g npm`
+```
